@@ -12,26 +12,50 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .card{
+      width:30%;
+      margin: auto;
+      background-color: white;
+      border-radius: 7%;
+    }
+    img{
+      width: 100%;
+      border-radius: 7% 7% 0 0 ;
+    }
+    .text-container{
+      margin: 20px;
+      text-align: center;
+    }
   </style>
 </head>
-<body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<body style="background-image:url('images/pattern-background-desktop.svg'); background-repeat: repeat-x ; background-color: hsl(225, 100%, 94%);">
+  <div style="height: 97vh; display: flex; align-items: center; width: 80vw; margin: auto;">
+    <div class="card">
+      <img src="images/illustration-hero.svg" alt="">
+      <div class="text-container">
+        <h2>Order Summary</h2>
+        
+        <p style="margin: 10px; font-size: smaller; color: hsl(224, 23%, 55%);">
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </p>
+        <div style="display: flex; align-items: center; margin: 10px 0;padding: 20px 0; background-color: hsl(225, 100%, 98%); border-radius: 7%;">
+          <div style="display: inline; margin-left: 15px;">
+          <img style="width:35px" src="images/icon-music.svg" alt="">
+          </div>
+          <div style="display: inline; margin-left: 10px;">
+            <span style="display: block;"> Annual Plan </span>
+            <span style="display: block; color: hsl(224, 23%, 55%);">$59.99/year </span>
+          </div>
+          <div style="display: inline; margin-left: 70px;">
+            <a style="font-size: smaller;" href="#">Change</a>
+          </div>
+          
+        </div>
+       <button style="display: block; margin:20px auto; width:100%; background-color: hsl(245, 75%, 52%);color: white; padding:12px;border:none; border-radius: 10px; box-shadow: 0px 5px 30px hsl(245, 75%, 65%) ;"> Proceed to Payment </button>
+        Cancel Order
+      </div>
+    </div>
   </div>
 </body>
 </html>
