@@ -1,5 +1,5 @@
 # Frontend Mentor - Order summary card
-
+Demo url: https://jovial-tanuki-a7c5c0.netlify.app/
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
